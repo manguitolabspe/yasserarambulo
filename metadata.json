@@ -1,0 +1,6 @@
+{
+  "name": "Parrilla de Contenidos - Yasser Arámbulo",
+  "description": "Programa de contenidos de agosto 2026 para las redes sociales de Yasser Arámbulo (Alcaldía La Brea–Negritos)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
