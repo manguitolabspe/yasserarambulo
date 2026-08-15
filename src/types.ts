@@ -1,97 +1,85 @@
+export type CampaignMonth = 'agosto' | 'setiembre' | 'octubre';
+
 export type PostStatus = 'pendiente' | 'en_proceso' | 'programado' | 'publicado';
 
-export type TimeOfDay = 'mañana' | 'noche' | 'única';
+export type CampaignPhaseId = 'fase1' | 'fase2' | 'fase3';
 
-export type PostFormat = 
-  | 'Reel' 
-  | 'Flyer' 
-  | 'Video' 
-  | 'Carrusel' 
-  | 'TikTok/Reel' 
-  | 'Historias' 
-  | 'Flyer + Reel'
-  | 'Flyer + Video';
+export interface CampaignPhase {
+  id: CampaignPhaseId;
+  month: CampaignMonth;
+  name: string;
+  periodText: string;
+  slogan: string;
+  objective: string;
+  strategy: string;
+  keyPillars: string[];
+  metas: string[];
+  techAndTactics: string[];
+}
 
-export type ContentPillar = 
-  | 'Persona y Candidato' 
-  | 'Juventud' 
-  | 'Educación Ciudadana' 
-  | 'Trabajo y Emprendimiento' 
-  | 'Adultos Mayores' 
-  | 'Deporte y Comunidad' 
-  | 'Escucha Territorial' 
-  | 'Efeméride' 
-  | 'Cierre y Resumen';
+export type PostPillarKey = 
+  | 'Yasser 1: El Ciudadano'
+  | 'Yasser 2: El Gestor'
+  | 'Yasser 3: El Fiscalizador'
+  | 'Yasser 4: El Líder Territorial'
+  | 'Yasser 5: El Candidato (Equipo)'
+  | 'Interacción'
+  | 'Yasser y la Salud'
+  | 'Propuesta'
+  | 'Resumen Semanal'
+  | 'Yasser y la Vivienda'
+  | 'Propuesta (Mujer)'
+  | 'Propuesta (Pesca)'
+  | 'El Equipo'
+  | 'Yasser y el Medio Ambiente'
+  | 'Propuesta (Turismo)'
+  | 'Propuesta (Juventud)'
+  | 'Yasser y el Turismo'
+  | 'Educación Ambiental'
+  | 'Identidad'
+  | 'Yasser y la Fiscalización'
+  | 'Propuesta (Seguridad)'
+  | 'Propuesta Institucional'
+  | 'Transparencia'
+  | 'Movilización'
+  | 'Yasser 1 y 4'
+  | 'Equipo'
+  | 'Cierre de Mes'
+  | string;
 
 export interface PostItem {
   id: string;
-  date: string; // YYYY-MM-DD format (2026-08-10)
-  dayName: string; // "LUNES 10 DE AGOSTO"
-  timeOfDay: TimeOfDay;
-  postNumberText: string; // "PUBLICACIÓN 1 – MAÑANA"
-  title: string; // "AGOSTO: VAMOS A ESCUCHAR MUCHO MÁS A NEGRITOS"
-  format: PostFormat;
-  pillar: ContentPillar;
-  eventId?: string; // e.g. "evento-1"
-  pitch?: string;
-  hook?: string;
+  month: CampaignMonth;
+  date: string; // YYYY-MM-DD (e.g. 2026-08-17, 2026-09-01)
+  dayName: string; // "LUNES 17 DE AGOSTO", "MARTES 1 DE SETIEMBRE"
+  dayShort: string; // "Lun 17", "Mar 1"
+  weekNumber?: number; // 1, 2, 3, 4
+  weekTitle?: string; // "Semana 1: Lo más urgente (Agua, Saneamiento y Salud)"
+  phase: CampaignPhaseId;
+  title: string;
+  format: string; // "Video Reel (Serie)", "Flyer (Carrusel IG/FB)", etc.
+  pillar: PostPillarKey;
+  visualScript?: string;
+  messageOrCopy: string;
   contentCopy: string;
+  interactiveDetails?: string;
+  hook?: string;
   question?: string;
   callToAction?: string;
-  optionsForStories?: string[];
-  details?: string[];
-  pendingData?: string[];
-  storiesNotes?: string;
-  isDoublePostDay?: boolean;
+  carouselSlides?: string[];
+  productionStyle?: string;
   tags: string[];
+  platforms: string[];
 }
 
-export interface CampaignEvent {
-  id: string;
-  eventNumber: number; // 1 to 7
-  date: string; // YYYY-MM-DD
-  dayText: string; // "SÁBADO 15 DE AGOSTO"
-  title: string; // "NEGRITOS, QUEREMOS ESCUCHARTE"
-  subtitle: string; // "Encuentro Juvenil con Yasser Arámbulo"
-  objective: string;
-  sector?: string; // "[POR CONFIRMAR]"
-  specialNote?: string;
-  antesTasks: string[];
-  duranteTasks: string[];
-  despuesTasks: string[];
-}
-
-export interface DerivativeItem {
-  id: string;
+export interface CandidatePillarInfo {
+  key: PostPillarKey;
+  number: number;
   name: string;
-  description: string;
-  status: 'pendiente' | 'guardado';
-}
-
-export interface DerivativeFolder {
-  id: string;
-  eventName: string;
-  eventNumber: number;
-  items: DerivativeItem[];
-}
-
-export interface ExtraFlyer {
-  id: number;
-  title: string;
-  subtitle?: string;
-  text?: string;
-  question?: string;
-  type: string;
-}
-
-export interface ProductionGoal {
-  id: string;
-  name: string;
-  targetMin: number;
-  targetMax: number;
-  currentCount: number;
-  unit: string;
-  description: string;
+  roleDescription: string;
+  tone: string;
+  visualTone: string;
+  exampleTopics: string[];
 }
 
 export interface CalendarFilter {
@@ -99,7 +87,5 @@ export interface CalendarFilter {
   pillar: string;
   format: string;
   status: string;
-  eventId: string;
-  onlyDoublePostDays: boolean;
-  timeOfDay: string;
+  month: string;
 }

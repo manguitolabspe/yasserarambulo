@@ -1,75 +1,86 @@
 import React, { useState } from 'react';
 import { Navbar, TabType } from './components/Navbar';
 import { CalendarView } from './components/CalendarView';
-import { EventsView } from './components/EventsView';
+import { StrategyPhasesView } from './components/StrategyPhasesView';
+import { PillarsGuideView } from './components/PillarsGuideView';
+import { SeptemberPreviewView } from './components/SeptemberPreviewView';
 import { FlyerPreviewer } from './components/FlyerPreviewer';
-import { ExtraFlyersView } from './components/ExtraFlyersView';
-import { DerivativesView } from './components/DerivativesView';
-import { MetricsView } from './components/MetricsView';
-import { PostDetailModal } from './components/PostDetailModal';
-import { PostItem, PostStatus } from './types';
-import { getStoredPostStatuses, savePostStatus } from './utils/storage';
+import { CampaignMonth } from './types';
 import { CAMPAIGN_INFO } from './data/parrillaData';
-import { Sparkles, HeartHandshake, ShieldCheck, MapPin } from 'lucide-react';
 
 export default function App() {
+  const [selectedMonth, setSelectedMonth] = useState<CampaignMonth>('agosto');
   const [activeTab, setActiveTab] = useState<TabType>('calendar');
-  const [selectedPost, setSelectedPost] = useState<PostItem | null>(null);
-  const [postStatuses, setPostStatuses] = useState<Record<string, PostStatus>>(() => getStoredPostStatuses());
 
-  const handleSelectPost = (post: PostItem) => {
-    setSelectedPost(post);
-  };
-
-  const handleStatusChange = (postId: string, status: PostStatus) => {
-    savePostStatus(postId, status);
-    setPostStatuses(prev => ({ ...prev, [postId]: status }));
+  const handleMonthChange = (month: CampaignMonth) => {
+    setSelectedMonth(month);
+    if (month === 'agosto') {
+      setActiveTab('calendar');
+    } else {
+      setActiveTab('future');
+    }
   };
 
   return (
     <div className="min-h-screen bg-slate-100 text-slate-800 font-sans flex flex-col selection:bg-[#E21F26] selection:text-white">
       {/* Top Header Navbar */}
-      <Navbar activeTab={activeTab} onTabChange={setActiveTab} />
+      <Navbar
+        selectedMonth={selectedMonth}
+        onMonthChange={handleMonthChange}
+        activeTab={activeTab}
+        onTabChange={setActiveTab}
+      />
 
       {/* Main Container */}
       <main className="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
         
-        {/* Render view according to activeTab */}
+        {/* Tab 1: Parrilla Diaria de Contenidos (Agosto & Setiembre) */}
         {activeTab === 'calendar' && (
-          <CalendarView onSelectPost={handleSelectPost} />
+          <CalendarView 
+            initialMonth={selectedMonth}
+            onMonthChange={setSelectedMonth}
+          />
         )}
 
-        {activeTab === 'events' && (
-          <EventsView onSelectPost={handleSelectPost} />
+        {/* Tab 2: Estrategia 3 Fases (Agosto a Octubre) */}
+        {activeTab === 'strategy' && (
+          <StrategyPhasesView 
+            onGoToAugustSprint={() => {
+              setSelectedMonth('agosto');
+              setActiveTab('calendar');
+            }} 
+            onGoToSeptemberSprint={() => {
+              setSelectedMonth('setiembre');
+              setActiveTab('calendar');
+            }}
+          />
         )}
 
-        {activeTab === 'flyer_generator' && (
+        {/* Tab 3: Los 5 Arquetipos / Pilares de Yasser */}
+        {activeTab === 'pillars' && (
+          <PillarsGuideView />
+        )}
+
+        {/* Tab 4: Fases Setiembre y Octubre (Serie, Renders IA Sora/Veo, WhatsApp, Voto) */}
+        {activeTab === 'future' && (
+          <SeptemberPreviewView 
+            onBackToAugust={() => {
+              setSelectedMonth('agosto');
+              setActiveTab('calendar');
+            }}
+            onGoToSeptemberCalendar={() => {
+              setSelectedMonth('setiembre');
+              setActiveTab('calendar');
+            }}
+          />
+        )}
+
+        {/* Tab 5: Generador / Diseñador de Flyers Oficiales APP */}
+        {activeTab === 'flyer' && (
           <FlyerPreviewer />
         )}
 
-        {activeTab === 'extra_flyers' && (
-          <ExtraFlyersView />
-        )}
-
-        {activeTab === 'derivatives' && (
-          <DerivativesView />
-        )}
-
-        {activeTab === 'metrics' && (
-          <MetricsView />
-        )}
-
       </main>
-
-      {/* Detail Modal Overlay */}
-      {selectedPost && (
-        <PostDetailModal
-          post={selectedPost}
-          currentStatus={postStatuses[selectedPost.id] || 'pendiente'}
-          onStatusChange={(newStatus) => handleStatusChange(selectedPost.id, newStatus)}
-          onClose={() => setSelectedPost(null)}
-        />
-      )}
 
       {/* Campaign Footer */}
       <footer className="bg-slate-900 text-white border-t-4 border-[#E21F26] py-6 px-4 sm:px-6 lg:px-8 mt-12 text-xs shadow-inner">
@@ -83,20 +94,20 @@ export default function App() {
             </div>
             <div>
               <span className="font-brand font-black tracking-tight text-white block text-sm uppercase">
-                Yasser Arámbulo – La Brea–Negritos
+                {CAMPAIGN_INFO.candidate} – {CAMPAIGN_INFO.district}
               </span>
               <span className="text-slate-400">
-                Alianza para el Progreso • <strong className="font-handwriting text-amber-400 text-base font-bold italic">"Siempre con la gente"</strong>
+                {CAMPAIGN_INFO.party} • <strong className="font-handwriting text-amber-400 text-base font-bold italic">"{CAMPAIGN_INFO.motto}"</strong>
               </span>
             </div>
           </div>
 
           <div className="text-center md:text-right space-y-1">
             <div className="inline-block px-2.5 py-0.5 bg-[#E21F26] text-white text-[10px] font-bold rounded uppercase tracking-widest mb-1">
-              Parrilla Maestra Reprogramada
+              Sprint Actualizado: 17 al 31 de Agosto
             </div>
             <p className="font-semibold text-slate-300">
-              Estrategia Agosto 2026: Escuchar + Explicar + Construir Confianza
+              Estrategia 3 Fases (Ago–Oct) • {CAMPAIGN_INFO.district}, Talara, Piura
             </p>
           </div>
 
