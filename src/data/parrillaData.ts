@@ -10,34 +10,34 @@ export const CAMPAIGN_INFO = {
   province: 'Talara',
   region: 'Piura',
   timeframe: 'Agosto – Octubre 2026',
-  coreNarrative: 'De la cercanía y escucha humana hacia la convicción, las propuestas técnicas sustentadas y el voto de confianza.',
-  videoRule: 'Cero aburrimiento: Textos cortos, subtítulos dinámicos en todos los videos (estilo Alex Hormozi) y flyers con jerarquía visual clara.'
+  coreNarrative: 'Destruir la idea de improvisación: Posicionar la preparación técnica, la experiencia comprobada y un Plan de Gobierno estructurado 2027–2030.',
+  videoRule: 'Cero aburrimiento: Formatos ágiles, subtítulos dinámicos en todos los videos (estilo Alex Hormozi), pantallas verdes con documentos probatorios y flyers de alto impacto.'
 };
 
 export const CAMPAIGN_PHASES: CampaignPhase[] = [
   {
     id: 'fase1',
     month: 'agosto',
-    name: 'Fase 1: El Ciudadano y el Territorio',
+    name: 'Fase 1: El Profesional y el Plan',
     periodText: '17 al 31 de Agosto',
-    slogan: '¿Quién es Yasser y por qué quiere servir a La Brea?',
-    objective: 'Posicionamiento humano. Responder a la pregunta: ¿Quién es Yasser y por qué quiere servir a La Brea?',
-    strategy: 'Mostrar a "Yasser 1" (El Ciudadano) y "Yasser 4" (El Líder Territorial). Cero discursos de podio. Muchos videos caminando por Negritos, escuchando a la gente en la caleta de pescadores o el Salar, con cámara en mano (estilo vlogger). Introduciremos a los regidores como un equipo cercano y diverso.',
+    slogan: 'La Brea no está para improvisar: Experiencia y Plan Técnico 2027–2030',
+    objective: 'Destruir la idea de improvisación. Posicionar a Yasser como la única opción con la preparación técnica, la experiencia en gestión pública y un Plan de Gobierno estructurado para La Brea.',
+    strategy: 'Yasser se posiciona con autoridad ejecutiva y solvencia técnica. No viene a improvisar ni a dar discursos vacíos; presenta soluciones viables, antecedentes de fiscalización y gestión documentada, y lidera un equipo de regidores con sólidas competencias técnicas.',
     keyPillars: [
-      'Yasser 1: El Ciudadano',
-      'Yasser 4: El Líder Territorial',
-      'Yasser 5: El Candidato (Equipo)',
-      'Interacción Directa con la Comunidad'
+      'Yasser 2: El Gestor',
+      'Yasser 3: El Fiscalizador',
+      'Propuestas Técnicas y Viables',
+      'Equipo Técnico de Regidores'
     ],
     metas: [
-      'Alcanzar un pico de reproducciones orgánicas en Reels y TikTok.',
-      'Establecer la identidad visual sólida (colores oficiales APP, tipografía moderna, edición ágil con subtítulos destacados).',
-      'Recolectar la primera base de datos de simpatizantes activos mediante automatizaciones y flujos de ManyChat en Facebook e Instagram.'
+      'Posicionar a Yasser como la opción técnica superior frente a cualquier improvisación electoral.',
+      'Instalar en la agenda pública los ejes prioritarios del Plan de Gobierno 2027–2030 (Agua, Saneamiento, Pesca, Turismo, Seguridad y Salud).',
+      'Generar prospectos y simpatizantes calificados mediante flujos automatizados de ManyChat para descarga del Plan oficial.'
     ],
     techAndTactics: [
-      'Edición estilo Alex Hormozi (subtítulos dinámicos con palabras clave resaltadas).',
-      'Cámara en mano / vlogger territorial en Punta Balcones, caleta y centro.',
-      'Flujos ManyChat conectados a comentarios para captar voluntarios.'
+      'Edición estilo Alex Hormozi (subtítulos dinámicos con palabras clave de autoridad técnica).',
+      'Motion graphics, pizarras explicativas y pantallas verdes con expedientes y actas oficiales.',
+      'Flujos ManyChat conectados a comentarios ("PLAN", "GESTIÓN", "PROCOMPITE") para captura de base de datos.'
     ]
   },
   {
@@ -46,7 +46,7 @@ export const CAMPAIGN_PHASES: CampaignPhase[] = [
     name: 'Fase 2: El Gestor y sus Propuestas',
     periodText: '1 al 30 de Setiembre',
     slogan: '¿Qué sabe hacer Yasser y qué propone para el distrito?',
-    objective: 'Credibilidad y Visión. Responder a la pregunta: ¿Qué sabe hacer y qué propone?',
+    objective: 'Credibilidad y Visión. Desplegar la profundidad técnica del Plan de Gobierno 2027–2030 con sustento presupuestal y de ingeniería.',
     strategy: 'Lanzar la serie "YASSER Y SU EXPERIENCIA" y desglosar el Plan de Gobierno 2027–2030. Utilizaremos pantallas verdes o motion graphics para mostrar la evidencia (documentos oficiales, ordenanzas) mientras él explica de forma didáctica. Aquí metemos las propuestas potentes: Agua y Saneamiento, Emprende Mujer Negriteña, Turismo ("Negritos es Chévere") y la Casa del Pescador.',
     keyPillars: [
       'Yasser 2: El Gestor',
@@ -55,9 +55,9 @@ export const CAMPAIGN_PHASES: CampaignPhase[] = [
       'Renders de Proyectos Emblemáticos'
     ],
     metas: [
-      'Posicionar a Yasser como el único candidato verdaderamente preparado técnica y políticamente.',
+      'Consolidar la percepción de que Yasser es el único candidato con capacidad de ejecución presupuestal.',
       'Fomentar debates constructivos en comentarios de redes y generar contenido viralizable por WhatsApp.',
-      'Usar herramientas de generación de video con IA (como Sora o Veo) para crear renders o apoyos visuales hiperrealistas de cómo se vería el Polideportivo Negritos o el mejoramiento integral del litoral.'
+      'Usar herramientas de generación de video con IA (como Sora o Veo) para crear renders hiperrealistas del Polideportivo Negritos y el Puerto Menor San Pablo.'
     ],
     techAndTactics: [
       'Serie "YASSER Y SU EXPERIENCIA" con soporte documental en pantalla.',
@@ -71,22 +71,22 @@ export const CAMPAIGN_PHASES: CampaignPhase[] = [
     month: 'octubre',
     name: 'Fase 3: El Voto de Confianza',
     periodText: '1 al 4 de Octubre (Día Central de Elección)',
-    slogan: 'La Brea necesita una autoridad que conozca su realidad y trabaje con responsabilidad.',
-    objective: 'Cierre emocional, consolidación del voto y movilización ciudadana.',
-    strategy: 'Mensajes directos, emotivos y de urgencia. Compilatorios de los mejores momentos de la campaña, testimonios de la gente de La Brea respaldando a Yasser y un llamado claro a la acción bajo la premisa: "La Brea necesita una autoridad que conozca su realidad, escuche a su gente y trabaje con responsabilidad."',
+    slogan: 'La Brea necesita una autoridad con capacidad técnica, honestidad y liderazgo.',
+    objective: 'Cierre de campaña, consolidación del voto consciente y movilización ciudadana.',
+    strategy: 'Mensajes directos, contundentes y de confianza. Compilatorios del respaldo popular, testimonios de vecinos y profesionales respaldando el Plan de Yasser, y defensa irrestricta del voto en mesa bajo el lema: "La Brea necesita una autoridad con preparación técnica comprobada y vocación de servicio."',
     keyPillars: [
-      'Cierre Emocional y Respaldo Popular',
+      'Cierre y Respaldo Popular',
       'Llamado al Voto Responsable por APP',
       'Defensa y Protección del Voto'
     ],
     metas: [
-      'Maximizar el alcance pagado y orgánico en todo el distrito.',
-      'Saturación positiva del mensaje central: "Siempre con la gente".',
-      'Movilización de personeros y protección integral del voto en las mesas de sufragio.'
+      'Maximizar el alcance del mensaje de victoria y liderazgo responsable en todo el distrito.',
+      'Saturación positiva del mensaje central: "Siempre con la gente - Marca la A de APP".',
+      'Movilización y coordinación total de personeros de mesa.'
     ],
     techAndTactics: [
-      'Videos testimoniales cruzados (pescadores, madres, jóvenes, comerciantes).',
-      'Compilatorio cinematográfico del recorrido territorial.',
+      'Videos testimoniales cruzados (pescadores, ingenieros, madres, jóvenes y comerciantes).',
+      'Compilatorio cinematográfico del respaldo en cada sector.',
       'Guía visual rápida de cómo marcar por la A de APP en la cédula.'
     ]
   }
@@ -96,61 +96,67 @@ export const CANDIDATE_PILLARS: CandidatePillarInfo[] = [
   {
     key: 'Yasser 1: El Ciudadano',
     number: 1,
-    name: 'El Ciudadano',
-    roleDescription: 'El vecino humilde, cercano y auténtico. Habla de su amor por Talara y Negritos, su familia, sus recuerdos y la vocación de servicio.',
-    tone: 'Cálido, humilde, reflexivo, cercano, en primera persona.',
-    visualTone: 'Caminando por las calles, atardeceres en Punta Balcones, fotos familiares y cotidianas.',
-    exampleTopics: ['"No vengo a prometer, vengo a escuchar"', 'Orgullo negriteño', 'Valores familiares']
+    name: 'El Ciudadano y su Tierra',
+    roleDescription: 'El profesional nacido en esta tierra, con profundo amor por Negritos, arraigo familiar y solvencia moral para liderar el cambio.',
+    tone: 'Seguro, reflexivo, con orgullo por su identidad negriteña y visión de futuro.',
+    visualTone: 'Locaciones icónicas de La Brea, miradores, puerto y espacios comunitarios con encuadre cinematográfico.',
+    exampleTopics: ['Orgullo y destino de Negritos', 'Valores éticos en la función pública', 'La Brea no está para improvisar']
   },
   {
     key: 'Yasser 2: El Gestor',
     number: 2,
-    name: 'El Gestor',
-    roleDescription: 'El profesional con experiencia pública que sabe cómo funciona el Estado, los presupuestos y cómo destrabar obras.',
-    tone: 'Didáctico, seguro, técnico pero accesible, resolutivo.',
-    visualTone: 'Explicaciones dinámicas, mapas, motion graphics, expedientes técnicos, pantallas verdes.',
-    exampleTopics: ['"No me cuentes cómo se hace, ya estuve ahí"', 'Agua y Saneamiento', 'Negritos Plástico Challenge']
+    name: 'El Gestor Público',
+    roleDescription: 'El profesional con experiencia pública que sabe cómo funciona el Estado, destraba presupuestos y ejecuta proyectos viables.',
+    tone: 'Didáctico, seguro, técnico pero accesible, resolutivo y contundente.',
+    visualTone: 'Explicaciones dinámicas, mapas, motion graphics, expedientes técnicos, pantallas verdes con ordenanzas y documentos.',
+    exampleTopics: ['"La Brea no está para improvisar"', 'Ingeniería de Agua y Saneamiento', 'PROCOMPITE y Empleo']
   },
   {
     key: 'Yasser 3: El Fiscalizador',
     number: 3,
     name: 'El Fiscalizador',
-    roleDescription: 'La autoridad honesta y valiente que ha fiscalizado la gestión pública y defendido los recursos de Talara y La Brea con documentos.',
+    roleDescription: 'La autoridad honesta y valiente que ha fiscalizado la gestión pública y defendido los recursos de Talara y La Brea con documentos probatorios.',
     tone: 'Firme, documentado, transparente e incorruptible.',
-    visualTone: 'Infografías, documentos oficiales sellados, recortes y actas de fiscalización.',
-    exampleTopics: ['Experiencia demostrada', 'Fiscalización de salud en Talara', 'Defensa ambiental']
+    visualTone: 'Infografías, documentos oficiales sellados, actas de comisiones investigadoras y pruebas documentales.',
+    exampleTopics: ['Comisión Investigadora 2022', 'Cuentas Claras en Obras', 'Defensa Ambiental del Litoral']
   },
   {
     key: 'Yasser 4: El Líder Territorial',
     number: 4,
     name: 'El Líder Territorial',
-    roleDescription: 'El líder que no está en el escritorio sino en la caleta, en el salar, en el mercado y en los barrios escuchando a los vecinos.',
-    tone: 'Cámara en mano, espontáneo, empático, sin protocolo.',
-    visualTone: 'Estilo vlogger, conversando con pescadores, comerciantes y vecinos en bodegas.',
-    exampleTopics: ['Un café en sectores populares', 'Comercio local en el mercado', 'Recorrido por el Salar']
+    roleDescription: 'El líder que recorre el territorio en constante inspección técnica, dialogando con los sectores productivos y verificando necesidades in situ.',
+    tone: 'Enérgico, resolutivo, en terreno, sin rodeos protocolares.',
+    visualTone: 'Inspecciones técnicas en la caleta de pescadores, salar, zonas de aniegos y centros productivos.',
+    exampleTopics: ['Inspección técnica de saneamiento', 'Puerto Menor San Pablo', 'Circuito Turístico Negritos es Chévere']
   },
   {
     key: 'Yasser 5: El Candidato (Equipo)',
     number: 5,
-    name: 'El Candidato y su Equipo',
-    roleDescription: 'El postulante con visión integral de futuro y un equipo de regidores jóvenes, técnicos y representativos de cada barrio.',
-    tone: 'Inspirador, entusiasta, moderno y colectivo.',
-    visualTone: 'Formatos dinámicos de TikTok, Ping Pong con regidores, carruseles de visión 2027–2030.',
-    exampleTopics: ['Conoce al equipo de regidores', 'Ping Pong de regidores', 'Las 4 dimensiones del Plan de Gobierno']
+    name: 'El Equipo Técnico y Plancha',
+    roleDescription: 'Un equipo de regidores profesionales con sólidas competencias técnicas, experiencia laboral y representación genuina de La Brea.',
+    tone: 'Solvente, profesional, entusiasta y de alta capacidad ejecutiva.',
+    visualTone: 'Presentaciones dinámicas, credenciales académicas, vocería técnica de regidores y propuestas sectoriales.',
+    exampleTopics: ['Perfil técnico de nuestros regidores', 'Las 4 dimensiones del Plan de Gobierno', 'Gobernar desde el Día 1']
   },
   {
     key: 'Interacción',
     number: 6,
-    name: 'Interacción Ciudadana',
-    roleDescription: 'Dinámicas participativas en Stories y publicaciones para escuchar prioridades, recoger comentarios y activar flujos ManyChat.',
-    tone: 'Participativo, directo, ameno y consultivo.',
-    visualTone: 'Stickers de preguntas, encuestas de historias, cuadrantes interactivos para comentarios.',
-    exampleTopics: ['¿Qué servicio municipal urge mejorar?', 'Preguntas para el Plan de Gobierno']
+    name: 'Interacción y Transparencia',
+    roleDescription: 'Canal directo de comunicación digital para responder dudas técnicas, publicar el Plan de Gobierno y recolectar propuestas.',
+    tone: 'Transparente, directo, pedagógico y de alto valor informativo.',
+    visualTone: 'Stickers de preguntas técnicas, enlaces de descarga directa de PDF, infografías descargables.',
+    exampleTopics: ['Descarga el Plan de Gobierno 2027–2030', 'Preguntas técnicas a Yasser', 'Transparencia de propuestas']
   }
 ];
 
 export const POSTS_DATA: PostItem[] = [
-  // LUNES 17
+  // ==========================================
+  // PARRILLA DE AGOSTO (17 AL 31 DE AGOSTO)
+  // FASE 1: EL PROFESIONAL Y EL PLAN
+  // Objetivo: Destruir la idea de improvisación y posicionar a Yasser con preparación técnica y Plan 2027–2030
+  // ==========================================
+
+  // LUNES 17 DE AGOSTO
   {
     id: 'post-17',
     month: 'agosto',
@@ -158,32 +164,35 @@ export const POSTS_DATA: PostItem[] = [
     dayName: 'LUNES 17 DE AGOSTO',
     dayShort: 'Lun 17',
     phase: 'fase1',
-    title: 'No vengo a prometer, vengo a escuchar',
-    format: 'Video Reel / TikTok (Storytelling)',
-    pillar: 'Yasser 1: El Ciudadano',
-    productionStyle: 'Subtítulos dinámicos estilo Alex Hormozi • Cámara en mano vlogger • Colores APP',
-    visualScript: 'Yasser caminando por Punta Balcones o el centro de Negritos al atardecer. Tomas fluidas de cámara en mano, plano medio a primer plano con luz dorada natural.',
-    hook: 'No vengo a pararme en un estrado a hacer promesas vacías. Vengo a escuchar a quienes caminan estas calles todos los días.',
-    messageOrCopy: 'Presentación corta y auténtica. Quién es Yasser Arámbulo, su orgullo por Talara y por qué La Brea merece una gestión presente y comprometida. Tono humilde pero firme.',
-    contentCopy: `No vengo a prometer, vengo a escuchar.
+    title: 'La Brea no está para improvisar',
+    format: 'Video Reel (Autoridad)',
+    pillar: 'Yasser 2: El Gestor',
+    productionStyle: 'Entorno sobrio y profesional • Subtítulos estilo Hormozi • B-roll de gestiones y documentos sellados',
+    visualScript: 'Yasser en un entorno profesional (oficina o locación sobria). Hablando a cámara con seguridad. B-roll de sus gestiones documentadas como Consejero Regional.',
+    hook: 'Gobernar no es un juego de ensayo y error. La Brea no está para improvisar con el futuro de nuestras familias.',
+    messageOrCopy: 'Presentación directa de su experiencia como Consejero Regional y su conocimiento técnico de la gestión pública. Se marca el tono firme de la campaña.',
+    contentCopy: `La Brea no está para improvisar 🏛️📜⚖️
 
-Durante años nos han acostumbrado a candidatos que solo aparecen cada cuatro años para dar discursos de podio y dejar promesas en el aire.
+Durante años nuestro distrito ha sufrido las consecuencias de autoridades que llegaron a aprender en el camino, sin preparación técnica y sin un plan estructurado.
 
-Yo soy Yasser Arámbulo, hijo de esta tierra bendita de Talara, y sé perfectamente que para gobernar bien primero hay que pisar el barro, mirar a los ojos y escuchar a la gente.
+Soy Yasser Arámbulo. En mi trayectoria como Consejero Regional aprendí cómo funciona el Estado por dentro:
+✅ Cómo se gestionan los presupuestos ante los ministerios.
+✅ Cómo se destraban expedientes técnicos paralizados.
+✅ Cómo se fiscaliza cada sol del pueblo para que no se pierda en la corrupción.
 
-La Brea tiene historia, tiene identidad y tiene un potencial gigantesco que merece ser liderado con respeto y trabajo honesto.
+No vengo a experimentar con La Brea; vengo con un Plan de Gobierno 2027–2030 listo para ejecutarse desde el primer día.
 
-Arrancamos este camino juntos. ¡Coméntame desde qué barrio o sector de Negritos nos estás viendo!
+¡La capacidad y la honestidad se demuestran con hechos!
 
-#YasserArámbulo #LaBreaNegritos #SiempreConLaGente #AlianzaParaElProgreso #ElCiudadano`,
-    question: '¿Desde qué barrio o sector de Negritos nos estás viendo?',
-    callToAction: 'Déjame tu comentario para enviarte un saludo y escuchar tus inquietudes por interno.',
-    interactiveDetails: 'Activar flujo ManyChat en FB/IG: al comentar la palabra "NEGRITOS" o el barrio, enviar saludo personalizado por DM e invitar a unirse al grupo de voluntarios.',
-    tags: ['Lanzamiento', 'Storytelling', 'Punta Balcones', 'Yasser 1', 'Escucha'],
+#LaBreaNoImprovisa #YasserGestor #ExperienciaComprobada #Plan2030 #SiempreConLaGente #APP`,
+    question: '¿Qué cualidad consideras más importante en quien lidere la alcaldía de La Brea?',
+    callToAction: 'Comenta la palabra "GESTIÓN" y te enviamos la síntesis de nuestras credenciales por interno.',
+    interactiveDetails: 'Flujo ManyChat activo: responder al comentario "GESTIÓN" enviando la hoja de vida resumida y credenciales de fiscalización.',
+    tags: ['Autoridad', 'No Improvisar', 'Gestor', 'Consejero Regional', 'Lanzamiento'],
     platforms: ['TikTok', 'Instagram Reels', 'Facebook Reels']
   },
 
-  // MARTES 18
+  // MARTES 18 DE AGOSTO
   {
     id: 'post-18',
     month: 'agosto',
@@ -191,39 +200,31 @@ Arrancamos este camino juntos. ¡Coméntame desde qué barrio o sector de Negrit
     dayName: 'MARTES 18 DE AGOSTO',
     dayShort: 'Mar 18',
     phase: 'fase1',
-    title: '3 cosas que nos unen a La Brea',
-    format: 'Flyer (Carrusel IG/FB)',
-    pillar: 'Yasser 4: El Líder Territorial',
-    productionStyle: 'Carrusel de 4 a 5 láminas en alta resolución con diseño de marca APP (Azul, Rojo y Blanco)',
-    visualScript: 'Láminas fotográficas de alto impacto: 1. Portada atractiva con Yasser en Punta Balcones. 2. El Bosque Petrificado. 3. El Salar y su riqueza natural. 4. La caleta y la pesca artesanal. 5. Cierre con logo de APP y "Siempre con la gente".',
-    hook: 'La Brea–Negritos tiene una riqueza única que nos infla el pecho de orgullo. ¿Conocías estos 3 tesoros que nos unen?',
-    messageOrCopy: 'Datos curiosos e históricos del distrito (El Bosque Petrificado, El Salar, la pesca artesanal). Conecta la identidad y el orgullo territorial con el compromiso de desarrollo.',
-    contentCopy: `3 cosas que nos unen y nos llenan de orgullo en La Brea–Negritos 💙🔴
+    title: 'Experiencia Pública Comprobada',
+    format: 'Flyer (Infografía)',
+    pillar: 'Credenciales',
+    productionStyle: 'Diseño corporativo en azul APP y blanco, viñetas limpias con iconos de acreditación oficial',
+    visualScript: 'Infografía con viñetas claras y corporativas con los hitos documentados de Yasser: seguimiento en salud, comisiones de fiscalización y gestión ambiental.',
+    hook: 'Las credenciales públicas no se inventan con discursos: se demuestran con resultados y documentos oficiales.',
+    messageOrCopy: 'Resumen gráfico de alta credibilidad con los 3 grandes hitos del candidato en la gestión pública regional y provincial.',
+    contentCopy: `Experiencia Pública Comprobada al Servicio de La Brea 📊🏛️🇵🇪
 
-1️⃣ Nuestro Bosque Petrificado: Un testimonio arqueológico y natural único en el Perú que merece ser protegido y puesto en valor turístico.
-2️⃣ El majestuoso Salar y Punta Balcones: El punto más occidental de América del Sur, donde el mar y el viento cuentan nuestra historia.
-3️⃣ La tradición de nuestra pesca artesanal: Hombres y mujeres de mar que con valentía madrugan cada día para alimentar a miles de familias.
+Para transformar un distrito se necesita solvencia técnica y antecedentes intachables:
 
-La Brea no es solo su pasado glorioso; es el futuro que vamos a construir juntos.
+📌 1. SEGUIMIENTO RIGUROSO EN SALUD: Fiscalización y destrabe de expedientes para la infraestructura médica en la provincia de Talara.
+📌 2. COMISIONES DE FISCALIZACIÓN: Liderazgo en comisiones investigadoras para proteger los fondos públicos de irregularidades.
+📌 3. GESTIÓN Y DEFENSA AMBIENTAL: Impulso a iniciativas ecológicas como el Negritos Plástico Challenge y ordenanzas de preservación del litoral.
 
-Guarda este post y compártelo con orgullo negriteño.
+Un alcalde debe saber gestionar desde el primer minuto.
 
-#LaBreaNegritos #OrgulloNegriteño #YasserArámbulo #SiempreConLaGente #APP`,
-    carouselSlides: [
-      'PORTADA: 3 cosas que nos unen a La Brea–Negritos (por Yasser Arámbulo)',
-      'LÁMINA 1: El Bosque Petrificado — Patrimonio natural milenario en nuestro desierto.',
-      'LÁMINA 2: El Salar y Punta Balcones — El hito geográfico más occidental de Sudamérica.',
-      'LÁMINA 3: La Pesca Artesanal — La fuerza y el corazón de nuestras familias de mar.',
-      'CIERRE: La Brea merece un futuro a la altura de su historia. Yasser Arámbulo • APP'
-    ],
-    question: '¿Cuál de estos tres tesoros de nuestro distrito es tu favorito?',
-    callToAction: 'Comparte este carrusel en tus historias si te sientes orgulloso de haber nacido en Negritos.',
-    interactiveDetails: 'Al guardar o compartir, responder comentarios destacando anécdotas de vecinos.',
-    tags: ['Identidad', 'Turismo', 'Pesca', 'Bosque Petrificado', 'Punta Balcones'],
+#ExperienciaComprobada #Credenciales #YasserArámbulo #SolvenciaTecnica #LaBreaNegritos #APP`,
+    question: '¿Conocías estos antecedentes de gestión pública de Yasser Arámbulo?',
+    callToAction: 'Guarda este post y compártelo para que más vecinos conozcan la experiencia del candidato.',
+    tags: ['Infografía', 'Credenciales', 'Fiscalización', 'Salud', 'Medio Ambiente'],
     platforms: ['Instagram', 'Facebook']
   },
 
-  // MIÉRCOLES 19
+  // MIÉRCOLES 19 DE AGOSTO
   {
     id: 'post-19',
     month: 'agosto',
@@ -231,33 +232,32 @@ Guarda este post y compártelo con orgullo negriteño.
     dayName: 'MIÉRCOLES 19 DE AGOSTO',
     dayShort: 'Mié 19',
     phase: 'fase1',
-    title: 'Conoce al equipo que trabajará por La Brea',
-    format: 'Video Dinámico (Trend)',
-    pillar: 'Yasser 5: El Candidato (Equipo)',
-    productionStyle: 'Formato TikTok / Reels de ritmo rápido con música en tendencia, cortes dinámicos y textos flotantes',
-    visualScript: 'Estilo TikTok. Los candidatos a regidores caminan con seguridad y una sonrisa hacia la cámara uno por uno en una locación icónica de Negritos. Aparece un rótulo con su nombre, especialidad/profesión y el barrio al que representan. Al final, Yasser se suma al centro del equipo.',
-    hook: 'Nadie transforma un distrito solo. Conoce a los hombres y mujeres que conforman el equipo de La Brea.',
-    messageOrCopy: 'Música en tendencia, actitud positiva, cercana y fresca. Demuestra que no es una candidatura individual, sino un equipo técnico y vecinal preparado.',
-    contentCopy: `Un verdadero cambio no lo hace una sola persona: lo hace un equipo comprometido con su gente 🤝🇵🇪
+    title: 'El plan real para el Agua y Saneamiento',
+    format: 'Video Pizarra / Motion Graphics',
+    pillar: 'Propuesta Técnica',
+    productionStyle: 'Pizarra explicativa digital • Animación 2D esquemática de presiones y reservorios • Cero política, 100% ingeniería',
+    visualScript: 'Yasser usando un recurso gráfico (pantalla o animación) para explicar cómo, técnicamente, se ampliará la cobertura a sectores desatendidos.',
+    hook: '¿Por qué el agua sigue llegando por horas a tantos sectores de Negritos? Te explico la ingeniería y la solución técnica en 60 segundos.',
+    messageOrCopy: 'Explicación técnica y pedagógica: sectorización hidráulica, renovación de colectores principales y financiamiento con MVCS.',
+    contentCopy: `El Plan Técnico para el Agua y Saneamiento en La Brea 💧🚰📉
 
-Hoy te presentamos a los hombres y mujeres que integran nuestra lista de regidores por La Brea–Negritos:
-✨ Vecinos de tus mismos barrios.
-✨ Profesionales jóvenes y con experiencia social.
-✨ Pescadores, emprendedores, educadores y líderes comunitarios.
+El problema del agua en Negritos no se resuelve regalando bidones en campaña; se soluciona con ingeniería hidráulica y gestión presupuestal:
 
-Gente honesta que no busca servirse de la política, sino servir con el corazón a nuestro distrito.
+1️⃣ Sectorización de redes matrices para equilibrar presiones y evitar pérdidas en tuberías antiguas.
+2️⃣ Renovación de colectores colapsados con tubería de alta densidad (HDPE) para terminar con los aniegos.
+3️⃣ Convenio directo con el Ministerio de Vivienda y EPS Grau para supervisión de obras con plazos auditados.
 
-¡Déjales un mensaje de aliento en los comentarios!
+Cero demagogia, 100% gestión técnica.
 
-#EquipoNegritos #YasserArámbulo #RegidoresAPP #SiempreConLaGente #JuventudYExperiencia`,
-    question: '¿A cuál de nuestros candidatos a regidores reconoces de tu sector?',
-    callToAction: 'Comenta y cuéntanos qué perfil técnico o vecinal crees que es más urgente en el concejo municipal.',
-    interactiveDetails: 'Etiquetar las cuentas de redes sociales de los regidores para que interactúen directamente con los vecinos.',
-    tags: ['Equipo', 'Regidores', 'Trend', 'Juventud', 'TikTok'],
+#AguaParaNegritos #SaneamientoTecnico #IngenieriaSanitaria #YasserGestor #Plan2030 #APP`,
+    question: '¿Qué sector de Negritos sufre más por baja presión de agua?',
+    callToAction: 'Etiqueta a tu vecino y comenta "AGUA" para enviarte el esquema técnico del proyecto.',
+    interactiveDetails: 'ManyChat: al comentar "AGUA", enviar infografía técnica del plan de ampliación de cobertura.',
+    tags: ['Agua', 'Saneamiento', 'Video Pizarra', 'Propuesta Técnica', 'Yasser 2'],
     platforms: ['TikTok', 'Instagram Reels', 'Facebook Reels']
   },
 
-  // JUEVES 20
+  // JUEVES 20 DE AGOSTO
   {
     id: 'post-20',
     month: 'agosto',
@@ -265,30 +265,39 @@ Gente honesta que no busca servirse de la política, sino servir con el corazón
     dayName: 'JUEVES 20 DE AGOSTO',
     dayShort: 'Jue 20',
     phase: 'fase1',
-    title: '¿Qué es lo que más te enorgullece de Negritos?',
-    format: 'Flyer Cuadrado (Interactivo)',
-    pillar: 'Yasser 1: El Ciudadano',
-    productionStyle: 'Diseño limpio y de alto contraste con tipografía bold y recuadro central para incentivar respuestas',
-    visualScript: 'Flyer cuadrado 1:1 optimizado para feed de Facebook e Instagram. Foto cercana de Yasser sonriendo con vecinos de fondo, acompañada de la pregunta en tipografía gigante y clara.',
-    hook: 'Cada rincón de nuestro distrito tiene una historia que vale la pena contar. Queremos leer la tuya.',
-    messageOrCopy: 'Pregunta abierta a la comunidad para generar engagement orgánico y comentarios de valor. "Yasser Arámbulo te lee en los comentarios".',
-    contentCopy: `¿Qué es lo que más te enorgullece de haber crecido o vivir en Negritos? 🌊☀️
+    title: 'Plan de Desarrollo Económico: Turismo',
+    format: 'Carrusel IG/FB',
+    pillar: 'Propuesta (Turismo)',
+    productionStyle: 'Infografía de alto impacto en carrusel de 5 láminas con imágenes de Punta Balcones, Salar y Bosque Petrificado',
+    visualScript: 'Desglose del proyecto "Negritos es Chévere" y la formalización de atractivos turísticos para generar empleo directo.',
+    hook: 'El turismo no es solo tomarse fotos bonitas: es empleo directo para mototaxistas, bodegas, restaurantes y artesanos negriteños.',
+    messageOrCopy: 'Desglose estructurado de la marca distrital "Negritos es Chévere" y la formalización de circuitos turísticos con presupuesto asignado.',
+    contentCopy: `Plan de Desarrollo Económico: Turismo que genera empleo real 🌅🏖️💼
 
-¿Su comida marina? ¿La tranquilidad de sus tardes? ¿La calidez de su gente trabajadora? ¿O esos recuerdos de infancia en el muelle y la playa?
+La Brea tiene atractivos geográficos únicos en el Perú, pero necesitan puesta en valor y promoción formal:
 
-Leo todos sus comentarios personalmente. Este espacio es para recordar por qué amamos tanto a La Brea y por qué vale la pena luchar por su desarrollo.
+📍 1. CIRCUITO PUNTA BALCONES: Señalización turística, miradores seguros y protección del santuario de lobos marinos.
+📍 2. RUTA DEL BOSQUE PETRIFICADO Y EL SALAR: Corredor ecoturístico con guías locales certificados.
+📍 3. RUTA GASTRONÓMICA DEL PESCADO FRESCO: Articulación de restaurantes, cevicherías y caleta.
+📍 4. MARCA DISTRITAL "NEGRITOS ES CHÉVERE": Promoción en ferias de PromPerú y MINCETUR.
 
-¡Te leo abajo! 👇
+El turismo será un motor económico que deje dinero en los bolsillos de nuestra gente.
 
-#OrgulloNegriteño #LaBreaNegritos #YasserArámbulo #SiempreConLaGente`,
-    question: '¿Qué es lo que más te enorgullece de Negritos?',
-    callToAction: 'Escribe tu respuesta y Yasser te responderá directamente en los comentarios.',
-    interactiveDetails: 'Automatización ManyChat: Enviar una respuesta automática por mensaje directo agradeciendo el aporte y enviando un enlace al canal de WhatsApp de la campaña.',
-    tags: ['Interacción', 'Comunidad', 'Engagement', 'Orgullo', 'ManyChat'],
-    platforms: ['Facebook', 'Instagram']
+#NegritosEsChévere #TurismoYEmpleo #PuntaBalcones #DesarrolloEconomico #YasserPropone #APP`,
+    carouselSlides: [
+      'Lámina 1: Portada - Plan de Desarrollo Económico: Turismo y Empleo',
+      'Lámina 2: Circuito Punta Balcones: Miradores, senderos y mirador de lobos',
+      'Lámina 3: Ruta Bosque Petrificado y El Salar: Ecoturismo formalizado',
+      'Lámina 4: Corredor Gastronómico y Comercial para negocios de Negritos',
+      'Lámina 5: Capacitación a transportistas y jóvenes anfitriones turísticos'
+    ],
+    question: '¿Qué negocio o emprendimiento te gustaría abrir en el circuito turístico?',
+    callToAction: 'Desliza las láminas y comparte esta visión de progreso para La Brea.',
+    tags: ['Turismo', 'Negritos Es Chévere', 'Desarrollo Económico', 'Carrusel', 'Punta Balcones'],
+    platforms: ['Instagram', 'Facebook']
   },
 
-  // VIERNES 21
+  // VIERNES 21 DE AGOSTO
   {
     id: 'post-21',
     month: 'agosto',
@@ -296,30 +305,32 @@ Leo todos sus comentarios personalmente. Este espacio es para recordar por qué 
     dayName: 'VIERNES 21 DE AGOSTO',
     dayShort: 'Vie 21',
     phase: 'fase1',
-    title: 'Un café en [Sector popular de Negritos]',
-    format: 'Video Reel (Cámara en mano)',
-    pillar: 'Yasser 4: El Líder Territorial',
-    productionStyle: 'Estilo documental vlogger • Planos detalle de miradas, tazas de café y manos trabajadoras • Sin música invasiva',
-    visualScript: 'Yasser sentado en una banca o mesa de una bodega popular en un sector tradicional de Negritos, compartiendo un café o refresco con pescadores y vecinos mayores. Yasser en actitud de escucha activa (anotando o asintiendo). Tomas de apoyo (B-roll) de las calles, niños jugando y el movimiento barrial.',
-    hook: 'Las mejores propuestas para un pueblo no se inventan detrás de un escritorio con aire acondicionado...',
-    messageOrCopy: 'Las mejores propuestas no nacen en un escritorio, nacen escuchando a los que caminan nuestras calles todos los días. Cercanía pura sin poses.',
-    contentCopy: `Las mejores propuestas no nacen en un escritorio, nacen escuchando a los que caminan nuestras calles todos los días ☕🏘️
+    title: 'Gestión eficiente frente al mar',
+    format: 'Video Reel (Inspección)',
+    pillar: 'Yasser 3: El Fiscalizador',
+    productionStyle: 'Tomas en exteriores con postura de inspección técnica, planos generales del litoral y archivo del Negritos Plástico Challenge',
+    visualScript: 'Yasser en el litoral, en postura de inspección técnica, explicando el plan de limpieza pública, gestión de residuos y recordando su gestión ambiental previa.',
+    hook: 'Estar en el litoral no es venir a mirar las olas; es fiscalizar cómo se gestionan los residuos y proteger nuestro mayor patrimonio natural.',
+    messageOrCopy: 'Yasser mostrando experiencia previa en acción ecológica (Negritos Plástico Challenge) y detallando el plan municipal de gestión integral de residuos sólidos.',
+    contentCopy: `Gestión Eficiente y Fiscalización Ambiental en Nuestro Litoral 🌊♻️🔍
 
-Hoy nos tomamos un café con los vecinos en el barrio, hablando de las necesidades reales: la falta de presión de agua, la falta de espacios deportivos para los chicos y la necesidad de reactivar la economía local.
+Cuando organizamos el "Negritos Plástico Challenge" demostramos que la voluntad ciudadana puede mover montañas. Como alcalde, convertiremos esa iniciativa en una política pública obligatoria:
 
-Un alcalde debe ser, antes que nada, el vecino que mejor conoce las preocupaciones de su comunidad. 
+✅ Sistema de recolección diferenciada de residuos en todo el borde costero y caletas.
+✅ Fiscalización estricta a empresas e industrias para que no contaminen nuestras playas.
+✅ Convenios con organizaciones ambientales para reciclaje y valorización de plásticos marinos.
 
-Gracias por abrirme las puertas de sus hogares. ¡Seguimos caminando juntos!
+Un mar limpio es salud, pesca productiva y turismo sostenible.
 
-#LaBreaTerritorio #CaminarEscucharResolver #YasserArámbulo #SiempreConLaGente #APP`,
-    question: '¿En qué calle o sector te gustaría que nos tomemos el próximo café para conversar?',
-    callToAction: 'Comenta tu barrio y coordinamos una visita vecinal esta misma semana.',
-    interactiveDetails: 'El equipo de campaña mapea los barrios comentados para agendar la ruta de las caminatas de los días siguientes.',
-    tags: ['Cámara En Mano', 'Vlogger', 'Vecinos', 'Escucha', 'Territorio'],
-    platforms: ['Instagram Reels', 'TikTok', 'Facebook Reels']
+#GestionAmbiental #FiscalizacionCostera #PlayasLimpias #NegritosPlasticoChallenge #YasserFiscalizador #APP`,
+    question: '¿Apoyarías que se apliquen sanciones a quienes arrojen basura en nuestras playas?',
+    callToAction: 'Comenta "PLAYAS" y súmate a nuestra red de brigadistas ambientales.',
+    interactiveDetails: 'ManyChat: responder con formulario para unirse a la brigada ambiental distrital.',
+    tags: ['Medio Ambiente', 'Inspección', 'Litoral', 'Fiscalizador', 'Yasser 3'],
+    platforms: ['TikTok', 'Instagram Reels', 'Facebook Reels']
   },
 
-  // SÁBADO 22
+  // SÁBADO 22 DE AGOSTO
   {
     id: 'post-22',
     month: 'agosto',
@@ -327,31 +338,29 @@ Gracias por abrirme las puertas de sus hogares. ¡Seguimos caminando juntos!
     dayName: 'SÁBADO 22 DE AGOSTO',
     dayShort: 'Sáb 22',
     phase: 'fase1',
-    title: 'Historias: Encuesta Ciudadana de Prioridades',
-    format: 'Historias (Encuestas)',
-    pillar: 'Interacción',
-    productionStyle: 'Pack de 4 Stories interactivas con stickers de votación rápida y caja de preguntas abierta',
-    visualScript: 'Secuencia de historias verticales: Story 1: Video de Yasser saludando e invitando a votar. Story 2: Sticker encuesta (Agua vs. Limpieza). Story 3: Sticker encuesta (Seguridad vs. Empleo Joven). Story 4: Caja de preguntas para dejar comentarios específicos.',
-    hook: 'Queremos que nuestro Plan de Gobierno tenga la voz de cada vecino. Vota en estas encuestas.',
-    messageOrCopy: 'Stickers de preguntas y encuestas: "¿Qué servicio municipal necesita mejorar urgente?" (Agua, Limpieza, Seguridad). Sirve para calentar el terreno para el Plan de Gobierno 2027–2030.',
-    contentCopy: `📱 SECUENCIA DE HISTORIAS INTERACTIVAS (SÁBADO 22 DE AGOSTO):
+    title: 'Visión 2027–2030: Gobierno Digital y Transparencia',
+    format: 'Flyer (Cita de Autoridad)',
+    pillar: 'Posicionamiento',
+    productionStyle: 'Diseño minimalista de alto contraste, fotografía sobria de Yasser en tonos azul marino y tipografía de impacto con firma oficial',
+    visualScript: 'Frase contundente sobre la necesidad de modernizar la administración municipal ("Gobierno Digital y Transparencia") firmada por Yasser Arámbulo.',
+    hook: 'Una municipalidad que no se moderniza es una municipalidad que le roba tiempo y dignidad a sus ciudadanos.',
+    messageOrCopy: 'Cita de autoridad sobre la modernización del Estado municipal, digitalización de trámites y cero burocracia.',
+    contentCopy: `"Una municipalidad que no se moderniza es una municipalidad que le roba tiempo y dignidad a su gente. La Brea merece una gestión ágil, con trámites digitales, transparencia absoluta y cero burocracia."
 
-👉 Historia 1: "¡Hola amigos de Negritos! Este sábado queremos escucharte con números claros."
-👉 Historia 2 (Encuesta): ¿Qué servicio municipal necesita una solución más urgente en tu sector?
-   ⚪ A) Agua potable continua y saneamiento
-   ⚪ B) Limpieza pública y recojo de basura
-👉 Historia 3 (Encuesta): ¿Cuál debe ser la prioridad para nuestros jóvenes?
-   ⚪ A) Talleres técnicos y empleo
-   ⚪ B) Espacios deportivos y culturales
-👉 Historia 4 (Caja de preguntas): "¿Qué problema en tu calle nadie ha solucionado hasta hoy? Déjalo aquí."`,
-    question: '¿Qué servicio municipal necesita mejorar con máxima urgencia en tu sector?',
-    callToAction: 'Interactúa con los stickers de nuestras historias en Instagram y Facebook.',
-    interactiveDetails: 'Los resultados porcentuales se guardan como insumo gráfico para los videos de propuestas de la Fase 2 (Setiembre).',
-    tags: ['Stories', 'Encuestas', 'Diagnóstico', 'Participación', 'Interacción'],
-    platforms: ['Instagram Stories', 'Facebook Stories']
+— Yasser Arámbulo
+Candidato a la Alcaldía Distrital de La Brea–Negritos
+Alianza para el Progreso (APP)
+
+En nuestra gestión 2027–2030 implementaremos la Mesa de Partes Virtual y el seguimiento de expedientes por QR para que ningún trámite quede encarpetado.
+
+#Vision2030 #GobiernoDigital #TransparenciaMunicipal #CeroBurocracia #YasserAlcalde #APP`,
+    question: '¿Qué trámite municipal consideras que debería ser 100% digital e inmediato?',
+    callToAction: 'Guarda esta cita y compártela si exiges una municipalidad moderna.',
+    tags: ['Cita Oficial', 'Visión 2030', 'Gobierno Digital', 'Transparencia', 'Flyer'],
+    platforms: ['Instagram', 'Facebook']
   },
 
-  // DOMINGO 23
+  // DOMINGO 23 DE AGOSTO
   {
     id: 'post-23',
     month: 'agosto',
@@ -359,30 +368,32 @@ Gracias por abrirme las puertas de sus hogares. ¡Seguimos caminando juntos!
     dayName: 'DOMINGO 23 DE AGOSTO',
     dayShort: 'Dom 23',
     phase: 'fase1',
-    title: 'El futuro que soñamos para nuestros hijos',
-    format: 'Foto de alta calidad',
-    pillar: 'Yasser 1: El Ciudadano',
-    productionStyle: 'Fotografía profesional en alta resolución • Iluminación natural • Composición humana y emotiva',
-    visualScript: 'Foto familiar o de descanso dominical con sus seres queridos (o Yasser en un mirador frente al mar de Negritos contemplando el horizonte con una mirada serena y esperanzadora).',
-    hook: 'Los domingos son para recargar el corazón con la familia y recordar por qué luchamos cada día.',
-    messageOrCopy: 'Foto familiar o de descanso dominical o Yasser en un mirador del litoral. Copy reflexivo sobre el futuro de los jóvenes y niños del distrito.',
-    contentCopy: `El domingo es para abrazar a la familia y recordar el verdadero motivo por el que estamos aquí 👨‍👩‍👧‍👦🌅
+    title: 'Un equipo de profesionales para La Brea',
+    format: 'Video Dinámico',
+    pillar: 'Equipo Técnico',
+    productionStyle: 'Presentación ejecutiva dinámica, rótulos con grados académicos, profesiones y experiencia laboral de cada regidor',
+    visualScript: 'Presentación de los regidores destacando exclusivamente sus competencias técnicas, académicas y trayectoria laboral comprobada.',
+    hook: 'Detrás de un gran plan de gobierno no hay improvisados: hay ingenieros, educadores, administradores y líderes probados.',
+    messageOrCopy: 'Demostración de fuerza técnica: cada candidato a regidor cuenta con un perfil profesional alineado a una comisión municipal clave.',
+    contentCopy: `Un equipo técnico y profesional listo para gobernar La Brea 👥🏛️🇵🇪
 
-Cuando camino por Negritos y veo a nuestros niños jugando en las calles o a los jóvenes buscando oportunidades, me convenzo de que La Brea tiene que ofrecerles un futuro digno, seguro y lleno de esperanza.
+El concejo municipal no es un adorno: es el órgano de fiscalización y normatividad distrital. Por eso nuestra lista está conformada por profesionales con experiencia:
 
-No queremos que nuestros hijos tengan que irse de su tierra para poder salir adelante. Queremos que aquí encuentren educación, deporte, trabajo y tranquilidad.
+🎓 Ingeniería y Proyectos: Para supervisar la calidad de las obras públicas.
+💼 Economía y Administración: Para asegurar la eficiencia del gasto del canon.
+📚 Educación y Desarrollo Social: Para liderar programas juveniles y culturales.
+⚓ Sector Pesquero y Productivo: Voceros directos de la pesca artesanal y comercio.
 
-Que tengan un bendecido domingo en compañía de quienes más aman.
+Con este equipo, La Brea estará en manos preparadas desde el día uno.
 
-#Familia #DomingoDePaz #FuturoParaNuestrosHijos #YasserArámbulo #SiempreConLaGente`,
-    question: '¿Qué mensaje le darías hoy a los jóvenes de La Brea que sueñan con salir adelante?',
-    callToAction: 'Dedícale este domingo un momento a tu familia y comparte tus bendiciones.',
-    interactiveDetails: 'Responder con afecto y cercanía a cada vecino que salude a la familia del candidato.',
-    tags: ['Familia', 'Domingo', 'Reflexión', 'Valores', 'Yasser 1'],
-    platforms: ['Facebook', 'Instagram']
+#EquipoTecnico #RegidoresCapacitados #SinImprovisacion #YasserEquipo #LaBreaNegritos #APP`,
+    question: '¿Qué perfil profesional consideras indispensable en un regidor fiscalizador?',
+    callToAction: 'Comenta y deja tu respaldo a este equipo de profesionales negriteños.',
+    tags: ['Equipo Técnico', 'Regidores', 'Competencias', 'Profesionales', 'Yasser 5'],
+    platforms: ['TikTok', 'Instagram Reels', 'Facebook Reels']
   },
 
-  // LUNES 24
+  // LUNES 24 DE AGOSTO
   {
     id: 'post-24',
     month: 'agosto',
@@ -390,32 +401,32 @@ Que tengan un bendecido domingo en compañía de quienes más aman.
     dayName: 'LUNES 24 DE AGOSTO',
     dayShort: 'Lun 24',
     phase: 'fase1',
-    title: 'No me cuentes cómo se hace, ya estuve ahí',
-    format: 'Video Reel (Teaser Serie)',
+    title: 'Cómo financiar los emprendimientos locales',
+    format: 'Video Reel (Casos)',
     pillar: 'Yasser 2: El Gestor',
-    productionStyle: 'Edición cinematográfica y dinámica con motion graphics, overlays de documentos y ritmo ágil',
-    visualScript: 'Yasser en encuadre dinámico, caminando hacia la cámara y gesticulando con seguridad. Mientras habla, aparecen animaciones gráficas flotantes simulando presupuestos, expedientes del Gobierno Regional y logos institucionales.',
-    hook: 'Administrar una municipalidad no es para improvisar ni aprender en el camino. Se necesita saber exactamente cómo tocar las puertas del Estado.',
-    messageOrCopy: 'Teaser de la serie. Yasser explica brevemente qué hace un Consejero Regional y cómo esa experiencia le da ventaja para gestionar financiamiento y obras por La Brea.',
-    contentCopy: `No me cuentes cómo se hace: ya estuve ahí y sé cómo conseguir resultados 💼📊
+    productionStyle: 'Pantalla dividida con casos de éxito de PROCOMPITE + gráficos explicativos de asignación presupuestal',
+    visualScript: 'Explicación técnica y rápida de cómo se implementará la Ley PROCOMPITE y el programa "Emprende Mujer Negriteña" bajo su gestión.',
+    hook: '¿Sabías que por ley la municipalidad puede otorgar capital semilla no reembolsable a emprendedores locales? Te explico cómo.',
+    messageOrCopy: 'Yasser explicando la aplicación del 10% del presupuesto de inversiones para cofinanciar planes de negocio locales.',
+    contentCopy: `Cómo reactivar la economía local con fondos de PROCOMPITE 📈🏪💰
 
-Muchos candidatos prometen obras millonarias sin saber de dónde sale un solo sol de presupuesto. La realidad es clara: el presupuesto propio de La Brea es limitado, y si no sabes gestionar ante el Gobierno Regional y los Ministerios en Lima, el distrito se queda estancado.
+Muchas autoridades no lo aplican por desconocimiento técnico, pero la Ley PROCOMPITE faculta a los gobiernos locales a destinar presupuesto directo para planes de negocio:
 
-Como ex Consejero Regional por Talara, aprendí a destrabar expedientes, a fiscalizar cada centavo y a exigir lo que por justicia le corresponde a nuestra gente.
+1️⃣ Fondo Concursable Anual Municipal para pesca, gastronomía, confección y turismo.
+2️⃣ Financiamiento de maquinaria, equipos e insumos sin que tengas que devolver el dinero.
+3️⃣ Programa especial "Emprende Mujer Negriteña" con asistencia técnica para formalización.
 
-Esa experiencia la pondremos al servicio de Negritos desde el primer día de gestión.
+El dinero de La Brea debe circular y generar riqueza dentro de La Brea.
 
-¡Se viene la serie donde te explicaré punto por punto cómo lo haremos!
-
-#GestiónPública #ExperienciaComprobada #YasserArámbulo #LaBreaNegritos #APP`,
-    question: '¿Crees que la experiencia previa en gestión es fundamental para liderar un municipio?',
-    callToAction: 'Síguenos y activa las notificaciones para no perderte el desglose de nuestras propuestas.',
-    interactiveDetails: 'Activar ManyChat con palabra clave "GESTION" para enviar el primer capítulo de la serie en cuanto se publique.',
-    tags: ['Gestión', 'Consejero Regional', 'Experiencia', 'Presupuesto', 'Yasser 2'],
-    platforms: ['Instagram Reels', 'TikTok', 'Facebook Reels']
+#PROCOMPITE #EmprendeMujer #EconomiaLocal #CapitalSemilla #YasserGestor #Plan2030`,
+    question: '¿Qué tipo de maquinaria o equipamiento necesita tu emprendimiento para crecer?',
+    callToAction: 'Comenta "PROCOMPITE" y entérate de las bases del programa que implementaremos.',
+    interactiveDetails: 'ManyChat: enviar PDF informativo de cómo postular a fondos de cofinanciamiento municipal.',
+    tags: ['PROCOMPITE', 'Emprendimiento', 'Economía', 'Emprende Mujer', 'Yasser 2'],
+    platforms: ['TikTok', 'Instagram Reels', 'Facebook Reels']
   },
 
-  // MARTES 25
+  // MARTES 25 DE AGOSTO
   {
     id: 'post-25',
     month: 'agosto',
@@ -423,32 +434,32 @@ Esa experiencia la pondremos al servicio de Negritos desde el primer día de ges
     dayName: 'MARTES 25 DE AGOSTO',
     dayShort: 'Mar 25',
     phase: 'fase1',
-    title: 'Experiencia demostrada en favor de la provincia',
-    format: 'Flyer (Infografía)',
-    pillar: 'Yasser 3: El Fiscalizador',
-    productionStyle: 'Infografía corporativa de alta jerarquía con sellos de gestión, iconografía y viñetas contrastadas',
-    visualScript: 'Flyer infográfico limpio y estructurado en 3 bloques de evidencia comprobada: 1. Fiscalización de la salud y hospitales en Talara. 2. Impulso a iniciativas ecológicas como el "Negritos Plástico Challenge". 3. Defensa del presupuesto descentralizado para distritos.',
-    hook: 'Las palabras se las lleva el viento, pero los documentos y las gestiones quedan registradas.',
-    messageOrCopy: 'Viñetas rápidas de sus gestiones documentadas (Salud en Talara, Negritos Plástico Challenge, etc.). Diseño limpio, corporativo y transparente.',
-    contentCopy: `Experiencia demostrada: los hechos hablan más fuerte que las promesas 📑✅
+    title: 'Seguridad Integral y Tecnológica',
+    format: 'Flyer Cuadrado',
+    pillar: 'Propuesta (Seguridad)',
+    productionStyle: 'Gráfica táctica 1:1 con mapa distrital, iconos de Puestos de Auxilio Rápido (PAR) y cámaras inteligentes',
+    visualScript: 'Puntos técnicos del plan: prevención vecinal, Puestos de Auxilio Rápido (PAR), videovigilancia con IA e infraestructura adecuada.',
+    hook: 'La seguridad ciudadana no se improvisa con promesas: se garantiza con tecnología, patrullaje integrado y puestos descentralizados.',
+    messageOrCopy: 'Detalle de los 4 ejes del Plan de Seguridad Integral y Tecnológica 2027–2030.',
+    contentCopy: `Plan de Seguridad Integral y Tecnológica para La Brea–Negritos 🚨👮‍♂️📹
 
-Cuando asumí la responsabilidad de representar a nuestra provincia, lo hice con un solo principio: defender los intereses de la población sin deberle favores a nadie.
+Vivir con tranquilidad y sin miedo es una condición básica para el desarrollo de nuestras familias:
 
-📌 Fiscalización en Salud: Exigiendo equipamiento y atención digna para los centros médicos de la provincia de Talara.
-📌 Acción Ambiental Concreta: Promoviendo desde 2019 iniciativas como el "Negritos Plástico Challenge" para limpiar nuestras playas.
-📌 Fiscalización de Obras: Asegurando que los recursos públicos se ejecuten con transparencia.
+📌 1. PUESTOS DE AUXILIO RÁPIDO (PAR): Módulos de respuesta inmediata en puntos críticos y accesos al distrito.
+📌 2. CENTRAL DE VIDEOVIGILANCIA INTELIGENTE: Cámaras con detección de placas y conectadas por fibra óptica.
+📌 3. PATRULLAJE INTEGRADO PNP + SERENAZGO: Turnos rotativos 24/7 con vehículos operativos.
+📌 4. EQUIPAMIENTO A JUNTAS VECINALES: Radios, chalecos y alarmas comunitarias interconectadas.
 
-Gobernar es saber gestionar. Yasser Arámbulo • Experiencia al servicio de La Brea.
+Cuidaremos a cada familia con tecnología y rigor operativo.
 
-#FiscalizaciónConResultados #ExperienciaDemostrada #YasserArámbulo #Transparencia #APP`,
-    question: '¿Qué obra o sector crees que necesita mayor fiscalización y transparencia en Negritos?',
-    callToAction: 'Comparte esta infografía para que más vecinos conozcan la trayectoria y resultados de Yasser.',
-    interactiveDetails: 'Disponer del archivo digital con los documentos de sustento para quienes soliciten información por mensaje privado.',
-    tags: ['Fiscalización', 'Infografía', 'Hechos', 'Salud', 'Yasser 3'],
-    platforms: ['Facebook', 'Instagram']
+#SeguridadCiudadana #NegritosSeguro #PlanDeSeguridad #PAR #YasserPropone #APP`,
+    question: '¿En qué punto de Negritos consideras más urgente un Puesto de Auxilio Rápido (PAR)?',
+    callToAction: 'Guarda esta infografía y coméntanos tu barrio para incluirlo en el mapa de monitoreo.',
+    tags: ['Seguridad', 'Tecnología', 'PAR', 'Serenazgo', 'Flyer Cuadrado'],
+    platforms: ['Instagram', 'Facebook']
   },
 
-  // MIÉRCOLES 26
+  // MIÉRCOLES 26 DE AGOSTO
   {
     id: 'post-26',
     month: 'agosto',
@@ -456,33 +467,31 @@ Gobernar es saber gestionar. Yasser Arámbulo • Experiencia al servicio de La 
     dayName: 'MIÉRCOLES 26 DE AGOSTO',
     dayShort: 'Mié 26',
     phase: 'fase1',
-    title: 'Ping Pong con los Regidores - Parte 1',
-    format: 'Video Reel (Entrevista Rápida)',
-    pillar: 'Yasser 5: El Candidato (Equipo)',
-    productionStyle: 'Formato vertical dinámico • Pantalla dividida o cortes rápidos cada 2 segundos con subtítulos animados',
-    visualScript: 'Micrófono de solapa o inalámbrico con branding APP. Preguntas rápidas y espontáneas a 2 o 3 integrantes de la lista de regidores: ¿Plato típico de Negritos? ¿Rincón favorito del distrito? ¿Qué te motivó a sumarte al equipo de Yasser?',
-    hook: '3 preguntas sin filtro a los vecinos que postulan como regidores en nuestro equipo.',
-    messageOrCopy: 'Preguntas rápidas a 2 o 3 regidores (Plato favorito, rincón favorito de Negritos, principal motivación). Humaniza al equipo de forma fresca y cercana.',
-    contentCopy: `🏓 Ping Pong con los Regidores de La Brea–Negritos (Parte 1) ✨
+    title: 'Así construiremos el futuro de la pesca',
+    format: 'Video (IA Renders / Apoyo visual)',
+    pillar: 'Infraestructura',
+    productionStyle: 'Renders arquitectónicos hiperrealistas generados con IA (Sora / Veo) • Música cinematográfica de inspiración',
+    visualScript: 'Yasser explicando el fortalecimiento de la pesca artesanal y la proyección de la Casa del Pescador y el Puerto Menor San Pablo, apoyado con imágenes de alta calidad generadas por IA.',
+    hook: 'Así lucirá el desembarcadero pesquero y la Casa del Pescador que nuestros hermanos del mar merecen. ¡Míralo con tus propios ojos!',
+    messageOrCopy: 'Visualización arquitectónica y sustentación técnica del Puerto Menor San Pablo y la Casa del Pescador.',
+    contentCopy: `El Futuro de la Pesca Artesanal: Puerto Menor San Pablo y Casa del Pescador ⚓🌊🐟
 
-Hoy pusimos a prueba la rapidez y espontaneidad de nuestro equipo:
-👉 ¿Ceviche o sudado de pescado fresco?
-👉 ¿Punta Balcones o el Salar?
-👉 ¿Qué es lo primero que harás desde el concejo municipal?
+La pesca es la columna vertebral de La Brea, pero nuestros pescadores llevan décadas trabajando sin infraestructura adecuada:
 
-Conoce a la gente real que acompaña a Yasser Arámbulo. Vecinos con ganas de trabajar y transformar nuestro distrito.
+⚓ Proyecto de Puerto Menor San Pablo: Con muelle de desembarque seguro, cadena de frío y energía solar.
+🏠 La Casa del Pescador: Un espacio integral con tópico médico, comedores, área de descanso y asesoría gremial.
+📑 Gestión ante FONDEPES y PRODUCE para destrabar expedientes y financiamiento estatal.
 
-¡Comenta qué otra pregunta te gustaría que les hagamos en la Parte 2!
+Nuestros hombres de mar tendrán las condiciones dignas que por justicia les corresponden.
 
-#PingPongRegidores #EquipoCercano #YasserArámbulo #LaBreaNegritos #GenteReal`,
-    question: '¿Qué pregunta sin filtro le harías tú a los candidatos a regidores?',
-    callToAction: 'Deja tu pregunta y la incluiremos en la Parte 2 de esta serie.',
-    interactiveDetails: 'Seleccionar las 3 preguntas ciudadanas más votadas de los comentarios para el siguiente reel de la serie.',
-    tags: ['Ping Pong', 'Entrevista', 'Humanización', 'Regidores', 'Humor'],
+#PescaArtesanal #PuertoSanPablo #CasaDelPescador #RendersIA #InfraestructuraDigna #YasserGestor`,
+    question: '¿Qué servicio consideras más urgente dentro de la Casa del Pescador?',
+    callToAction: 'Pescador artesanal de Negritos: este proyecto es para ti. ¡Comparte el video!',
+    tags: ['Pesca', 'Puerto Menor', 'Casa Del Pescador', 'Renders IA', 'Infraestructura'],
     platforms: ['TikTok', 'Instagram Reels', 'Facebook Reels']
   },
 
-  // JUEVES 27
+  // JUEVES 27 DE AGOSTO
   {
     id: 'post-27',
     month: 'agosto',
@@ -490,30 +499,32 @@ Conoce a la gente real que acompaña a Yasser Arámbulo. Vecinos con ganas de tr
     dayName: 'JUEVES 27 DE AGOSTO',
     dayShort: 'Jue 27',
     phase: 'fase1',
-    title: 'Tenemos el litoral más hermoso, vamos a cuidarlo',
-    format: 'Reel / TikTok (Medio Ambiente)',
-    pillar: 'Yasser 2: El Gestor',
-    productionStyle: 'Tomas panorámicas de la playa combinadas con cámara en mano recogiendo residuos simbólicos',
-    visualScript: 'Yasser caminando por la playa al amanecer. Muestra la belleza del mar y menciona su experiencia de trabajo voluntario en el "Negritos Plástico Challenge" de 2019. Conecta el cuidado ecológico con el enorme potencial de turismo sostenible.',
-    hook: 'Dios nos dio uno de los litorales más hermosos del norte del Perú, pero no podemos dejar que la basura y el abandono lo arruinen.',
-    messageOrCopy: 'Yasser en la playa. Recuerda su experiencia en el "Negritos Plástico Challenge" 2019. Conecta el cuidado ambiental con el potencial turístico y la economía de los pescadores.',
-    contentCopy: `Tenemos el litoral más hermoso del Perú, y es hora de cuidarlo como se merece 🌊🏖️
+    title: 'Salud: Posta Médica y Gestión 24/7',
+    format: 'Flyer (Infografía)',
+    pillar: 'Propuesta (Salud)',
+    productionStyle: 'Infografía sobria en azul y rojo APP con diagrama de flujo de atención de urgencias y equipamiento',
+    visualScript: 'Desglose técnico de la propuesta de salud: ambulancia municipal permanente, gestión de médicos especialistas y convenio con MINSA.',
+    hook: 'Las emergencias médicas en Negritos no pueden esperar a que salga el sol o viajar de urgencia a Talara sin auxilio.',
+    messageOrCopy: 'Propuesta técnica de salud: equipamiento de tópico, categorización de posta y ambulancia distrital permanente.',
+    contentCopy: `Plan de Salud Distrital: Posta Médica y Gestión de Urgencias 24/7 🏥🚑🩺
 
-En 2019 demostramos con el "Negritos Plástico Challenge" que cuando la juventud y la comunidad se organizan, podemos recuperar nuestros espacios naturales sin gastar millones.
+La salud de nuestras familias es un derecho fundamental que no puede depender de horarios de oficina:
 
-En nuestro Plan de Gobierno 2027–2030, el cuidado ambiental no será un adorno: será el motor para atraer turismo responsable, generar empleo para los jóvenes y proteger las zonas de pesca artesanal.
+1️⃣ AMBULANCIA MUNICIPAL 24 HORAS: Unidad médica equipada con chofer y paramédico para traslados inmediatos.
+2️⃣ CATEGORIZACIÓN ANTE DIRESAL: Gestión técnica para ampliar el horario de atención médica continúa.
+3️⃣ BOTIQUÍN MUNICIPAL SOLIDARIO: Medicamentos esenciales a precio de costo para familias vulnerables.
+4️⃣ CAMPAÑAS MÉDICAS CON ESPECIALISTAS: Cardiología, pediatría, oftalmología y geriatría cada 15 días.
 
-Una playa limpia es salud, es turismo y es orgullo negriteño.
+La salud en La Brea se defiende con gestión y presupuesto.
 
-#CuidadoAmbiental #PlayasLimpias #NegritosPlasticoChallenge #TurismoSostenible #YasserArámbulo`,
-    question: '¿Te sumarías a una gran jornada de limpieza de playas y concientización con nosotros?',
-    callToAction: 'Comenta "YO ME SUMO" para enviarte la convocatoria de la próxima jornada ambiental.',
-    interactiveDetails: 'Flujo ManyChat con "YO ME SUMO" para registrar simpatizantes ambientales y voluntarios juveniles.',
-    tags: ['Medio Ambiente', 'Playas', 'Turismo', 'Plástico Challenge', 'Yasser 2'],
-    platforms: ['TikTok', 'Instagram Reels', 'Facebook Reels']
+#SaludParaNegritos #AmbulanciaMunicipal #Atencion24Horas #YasserGestor #PropuestaSalud #APP`,
+    question: '¿Qué especialidad médica consideras más urgente traer a las campañas de salud?',
+    callToAction: 'Guarda esta infografía y compártela con tus familiares en Negritos.',
+    tags: ['Salud', 'Posta Médica', 'Ambulancia', 'Propuesta Técnica', 'Infografía'],
+    platforms: ['Instagram', 'Facebook']
   },
 
-  // VIERNES 28
+  // VIERNES 28 DE AGOSTO
   {
     id: 'post-28',
     month: 'agosto',
@@ -521,43 +532,33 @@ Una playa limpia es salud, es turismo y es orgullo negriteño.
     dayName: 'VIERNES 28 DE AGOSTO',
     dayShort: 'Vie 28',
     phase: 'fase1',
-    title: 'Nuestra Visión 2027–2030: Las 4 Dimensiones',
-    format: 'Flyer (Carrusel)',
-    pillar: 'Yasser 5: El Candidato (Equipo)',
-    productionStyle: 'Carrusel infográfico de 5 láminas con diseño editorial moderno, íconos y paleta oficial APP',
-    visualScript: 'Lámina 1: Portada con título imponente "Nuestra Visión 2027–2030". Lámina 2: Dimensión Social (Agua, Salud y Educación). Lámina 3: Dimensión Económica (Pesca, Empleo y Turismo). Lámina 4: Dimensión Ambiental y Territorial. Lámina 5: Dimensión Institucional y Transparencia. CTA para solicitar el documento completo.',
-    hook: 'Un plan de gobierno serio no se improvisa: se estructura en 4 dimensiones estratégicas para transformar La Brea.',
-    messageOrCopy: 'Un resumen muy visual de las 4 dimensiones del plan (Social, Económica, Ambiental, Institucional). Promover que pidan el PDF por mensaje directo (DM).',
-    contentCopy: `Nuestra Visión para La Brea–Negritos 2027–2030 📘🏛️
+    title: 'Desmintiendo la improvisación',
+    format: 'Video Reel (Comparativa)',
+    pillar: 'Yasser 2: El Gestor',
+    productionStyle: 'Edición dinámica, estilo Hormozi, pantalla dividida comparando improvisación vs. gestión técnica',
+    visualScript: 'Yasser abordando mitos de la gestión pública. "Gobernar no es prometer obras faraónicas sin expediente; gobernar es tener el código SNIP y el financiamiento asegurado".',
+    hook: '¿Te han prometido obras que nunca se construyen? Te explico por qué fracasan los improvisados y cómo lo haremos nosotros.',
+    messageOrCopy: 'Yasser explicando la diferencia entre promesas al aire y proyectos viables con código de inversión pública (Invierte.pe).',
+    contentCopy: `Desmintiendo la improvisación: la verdad detrás de las obras públicas 💡📐🏗️
 
-No venimos con ocurrencias de último minuto. Nuestro Plan de Gobierno está construido sobre 4 dimensiones técnicas sólidas:
+En cada campaña electoral aparecen candidatos prometiendo estadios, bulevares y obras millonarias. ¿Por qué nunca se hacen realidad?
 
-1️⃣ Dimensión Social: Agua continua, posta médica equipada y apoyo integral a la niñez y adulto mayor.
-2️⃣ Dimensión Económica: Modernización de la caleta pesquera, programa "Emprende Mujer" y turismo ("Negritos es Chévere").
-3️⃣ Dimensión Ambiental: Gestión de residuos, arborización y protección de nuestro litoral.
-4️⃣ Dimensión Institucional: Municipio de puertas abiertas, trámites digitales y cero corrupción.
+❌ Porque no tienen Código de Inversión (Invierte.pe).
+❌ Porque no saben cómo elaborar un Expediente Técnico viable.
+❌ Porque ignoran cómo gestionar el financiamiento ante los ministerios en Lima.
 
-¿Quieres leer el documento completo con todas las propuestas detalladas? 
+En nuestro equipo no venimos con ocurrencias de campaña. Nuestro Plan de Gobierno 2027–2030 cuenta con proyectos formulados con rigor técnico y sustento financiero real.
 
-Comenta la palabra "PLAN" y te enviamos el PDF directo a tu buzón de mensajes.
+¡Menos demagogia, más capacidad comprobada!
 
-#PlanDeGobierno #Vision2027_2030 #LaBreaNegritos #YasserArámbulo #PropuestasClaras`,
-    carouselSlides: [
-      'PORTADA: Nuestra Visión 2027–2030 para La Brea–Negritos (Yasser Arámbulo • APP)',
-      'LÁMINA 1: DIMENSIÓN SOCIAL — Agua potable, posta médica equipada, educación técnica y apoyo social.',
-      'LÁMINA 2: DIMENSIÓN ECONÓMICA — Reactivación de la pesca artesanal, Casa del Pescador y Emprende Mujer.',
-      'LÁMINA 3: DIMENSIÓN AMBIENTAL — Limpieza pública moderna, protección de playas y ordenamiento territorial.',
-      'LÁMINA 4: DIMENSIÓN INSTITUCIONAL — Rendición de cuentas periódica, gobierno digital y cero corrupción.',
-      'CIERRE: ¿Quieres leer el Plan completo? Comenta "PLAN" y te enviamos el PDF por DM.'
-    ],
-    question: '¿Cuál de las 4 dimensiones consideras más urgente para tu sector?',
-    callToAction: 'Escribe "PLAN" en los comentarios y recibe el archivo digital en PDF de inmediato.',
-    interactiveDetails: 'Configuración ManyChat: Al recibir el comentario "PLAN", enviar automáticamente el PDF del Plan de Gobierno al Messenger o Instagram Direct del usuario.',
-    tags: ['Plan de Gobierno', 'Dimensiones', 'Carrusel', 'Propuestas', 'ManyChat'],
-    platforms: ['Instagram', 'Facebook']
+#SinImprovisacion #GestionTecnica #InviertePe #YasserGestor #LaBreaNegritos #APP`,
+    question: '¿Qué obra inconclusa o promesa rota en Negritos te indigna más?',
+    callToAction: 'Comenta y comparte este reel con quienes exigen propuestas serias.',
+    tags: ['Comparativa', 'Invierte.pe', 'Gestión Técnica', 'No Improvisar', 'Yasser 2'],
+    platforms: ['TikTok', 'Instagram Reels', 'Facebook Reels']
   },
 
-  // SÁBADO 29
+  // SÁBADO 29 DE AGOSTO
   {
     id: 'post-29',
     month: 'agosto',
@@ -565,30 +566,38 @@ Comenta la palabra "PLAN" y te enviamos el PDF directo a tu buzón de mensajes.
     dayName: 'SÁBADO 29 DE AGOSTO',
     dayShort: 'Sáb 29',
     phase: 'fase1',
-    title: 'El emprendimiento local es el motor de La Brea',
-    format: 'Video Reel (En la calle)',
-    pillar: 'Yasser 4: El Líder Territorial',
-    productionStyle: 'Video dinámico con sonido ambiente, interacción espontánea con comerciantes y ritmo festivo',
-    visualScript: 'Yasser recorriendo el mercado municipal y comercios de Negritos un sábado por la mañana. Saluda a las vendedoras de abarrotes, compra fruta, conversa con emprendedores locales y comparte un momento de risas con los vecinos.',
-    hook: 'Detrás de cada bodega, puesto de mercado o negocio en Negritos, hay una familia valiente que saca adelante al distrito.',
-    messageOrCopy: 'Yasser en un comercio local o mercado de Negritos. Comprando algo, saludando y mostrando el dinamismo comercial. Resalta que el emprendimiento es el verdadero motor económico.',
-    contentCopy: `El emprendimiento de nuestra gente es el verdadero motor de La Brea–Negritos 🛒💪
+    title: 'Juventud, Deporte y Oportunidades',
+    format: 'Flyer Carrusel',
+    pillar: 'Propuesta (Educación y Deporte)',
+    productionStyle: 'Carrusel moderno en 4 láminas con fotografías de academias deportivas y convenios universitarios',
+    visualScript: 'Presentación del programa de becas técnicas, academia preuniversitaria municipal y modernización de complejos deportivos.',
+    hook: 'Nuestros jóvenes no tienen que irse de Negritos para salir adelante. Crearemos oportunidades reales en su propia tierra.',
+    messageOrCopy: 'Desglose del programa de becas municipales, academia preuniversitaria gratuita y centros de alto rendimiento deportivo.',
+    contentCopy: `Oportunidades reales para la Juventud de La Brea–Negritos ⚽📚🎯
 
-Hoy estuvimos en el mercado y en los comercios locales conversando con nuestros vecinos emprendedores. Hombres y mujeres que desde las 5 de la mañana levantan sus negocios con puro esfuerzo y sacrificio.
+El futuro de nuestro distrito depende de lo que hagamos hoy por nuestros niños y jóvenes:
 
-Desde la municipalidad seremos sus principales aliados: facilitando licencias, capacitaciones, ferias productivas y el programa "Emprende Mujer Negriteña".
+1️⃣ ACADEMIA PREUNIVERSITARIA MUNICIPAL GRATUITA: Con docentes calificados para el ingreso a UNP, SENCICO y SENATI.
+2️⃣ CONVENIOS PARA BECAS TÉCNICAS Y UNIVERSITARIAS: Articulación con institutos y empresas de la zona.
+3️⃣ RECUPERACIÓN DE COMPLEJOS DEPORTIVOS: Con iluminación LED, césped sintético y escuelas formativas de fútbol, vóley y surf.
+4️⃣ CENTRO DE INNOVACIÓN Y ROBÓTICA JUVENIL: Acceso a internet de alta velocidad y talleres digitales.
 
-Cuando el comercio local crece, todo Negritos progresa. ¡Consume local, apoya a tu vecino!
+Juventud con oportunidades es desarrollo para La Brea.
 
-#EmprendimientoLocal #MercadoNegritos #ConsumeLocal #YasserArámbulo #SiempreConLaGente`,
-    question: '¿Tienes un emprendimiento en Negritos? Déjalo en los comentarios para etiquetarte y apoyarte.',
-    callToAction: 'Menciona el nombre de tu negocio o el de tu vecino emprendedor favorito.',
-    interactiveDetails: 'El equipo de community managers responderá y compartirá en stories a los emprendimientos locales mencionados.',
-    tags: ['Mercado', 'Emprendedores', 'Economía Local', 'Cercanía', 'Yasser 4'],
-    platforms: ['TikTok', 'Instagram Reels', 'Facebook Reels']
+#JuventudNegriteña #DeporteYEducacion #AcademiaMunicipal #BecasTecnicas #YasserPropone`,
+    carouselSlides: [
+      'Lámina 1: Portada - Plan de Juventud, Deporte y Oportunidades 2027–2030',
+      'Lámina 2: Academia Preuniversitaria Municipal Gratuita y Becas de Estudio',
+      'Lámina 3: Modernización integral de complejos deportivos barriales',
+      'Lámina 4: Centro de Innovación y Talleres Digitales para el empleo joven'
+    ],
+    question: '¿Qué carrera técnica o taller te gustaría que ofrezca la academia municipal?',
+    callToAction: 'Desliza las láminas y etiqueta a los jóvenes talentos de Negritos.',
+    tags: ['Juventud', 'Deporte', 'Educación', 'Becas', 'Carrusel'],
+    platforms: ['Instagram', 'Facebook']
   },
 
-  // DOMINGO 30
+  // DOMINGO 30 DE AGOSTO
   {
     id: 'post-30',
     month: 'agosto',
@@ -596,31 +605,31 @@ Cuando el comercio local crece, todo Negritos progresa. ¡Consume local, apoya a
     dayName: 'DOMINGO 30 DE AGOSTO',
     dayShort: 'Dom 30',
     phase: 'fase1',
-    title: 'Historias: ¿De qué tema del Plan quieres que hablemos primero?',
-    format: 'Historias Interactivas',
-    pillar: 'Interacción',
-    productionStyle: 'Secuencia de stories enérgicas con caja de votación múltiple y cuenta regresiva hacia el 1 de septiembre',
-    visualScript: 'Yasser en video vertical breve anunciando con entusiasmo que mañana inicia la Fase de Propuestas de Setiembre. Inserta sticker de encuesta de 4 opciones: Agua, Salud, Seguridad, Turismo.',
-    hook: 'Mañana arrancamos septiembre con todo. ¡Tú decides con qué propuesta empezamos!',
-    messageOrCopy: '"Mañana arrancamos septiembre con todo. ¿De qué tema del Plan de Gobierno quieres que hablemos primero?" (Opciones: Agua, Salud, Seguridad, Turismo).',
-    contentCopy: `📱 SECUENCIA DE STORIES (DOMINGO 30 DE AGOSTO - EXPECTATIVA SETIEMBRE):
+    title: 'Un mensaje a las familias de La Brea',
+    format: 'Video Sobrio / Fotografía',
+    pillar: 'Yasser 1: El Ciudadano',
+    productionStyle: 'Fotografía en alta resolución de Yasser con vecinos en el atardecer negriteño • Tono reflexivo y sereno',
+    visualScript: 'Yasser en un momento reflexivo, compartiendo su visión humana de por qué servir a La Brea con honestidad y preparación.',
+    hook: 'La política adquiere verdadero valor cuando se pone al servicio de la dignidad de las familias.',
+    messageOrCopy: 'Mensaje de convicción moral y técnica de cara al inicio de la fase decisiva de septiembre.',
+    contentCopy: `Un mensaje de corazón y compromiso a cada familia de La Brea 🌅🤝🇵🇪
 
-👉 Story 1: Video de Yasser: "¡Amigos de La Brea! Cerramos un agosto increíble recorriendo el distrito. A partir de mañana primero de septiembre iniciamos la fase de PROPUESTAS CONCRETAS."
-👉 Story 2 (Sticker de votación de 4 opciones):
-   ¿De qué tema del Plan de Gobierno quieres que hablemos primero este 1 de septiembre?
-   🔘 1. Agua y Saneamiento continuo
-   🔘 2. Posta médica y Salud 24/7
-   🔘 3. Seguridad ciudadana y serenazgo
-   🔘 4. Turismo, pesca y empleo juvenil
-👉 Story 3: Cuenta regresiva para el lanzamiento de la serie de propuestas.`,
-    question: '¿De qué tema del Plan de Gobierno quieres que hablemos primero este 1 de septiembre?',
-    callToAction: 'Vota en nuestras historias para definir el tema del video de apertura de septiembre.',
-    interactiveDetails: 'La opción ganadora determinará el tema exacto del video reel del 1 de septiembre.',
-    tags: ['Expectativa', 'Septiembre', 'Votación', 'Democracia Digital', 'Interacción'],
-    platforms: ['Instagram Stories', 'Facebook Stories']
+Cuando miro a los ojos a los padres y madres de familia de Negritos, veo el mismo anhelo que tengo yo: ver crecer a nuestros hijos en un distrito seguro, con agua en sus casas, con salud digna y con oportunidades de progreso.
+
+No entré a este camino para buscar aplausos fáciles ni cargos decorativos. Entré porque me preparé en la gestión pública para resolver de verdad los problemas históricos de nuestra tierra.
+
+Cerramos agosto con la certeza de que La Brea está lista para dar el salto hacia el desarrollo técnico y honesto.
+
+¡Que tengan un bendecido domingo!
+
+#FamiliaNegriteña #CompromisoYHonestidad #YasserCiudadano #SiempreConLaGente #APP`,
+    question: '¿Cuál es el mayor anhelo que tienes para tu familia en Negritos?',
+    callToAction: 'Comenta y recibe un afectuoso saludo dominical de parte de todo el equipo.',
+    tags: ['Familia', 'Mensaje', 'Reflexión', 'Yasser 1', 'Domingo'],
+    platforms: ['Facebook', 'Instagram']
   },
 
-  // LUNES 31
+  // LUNES 31 DE AGOSTO
   {
     id: 'post-31',
     month: 'agosto',
@@ -628,31 +637,31 @@ Cuando el comercio local crece, todo Negritos progresa. ¡Consume local, apoya a
     dayName: 'LUNES 31 DE AGOSTO',
     dayShort: 'Lun 31',
     phase: 'fase1',
-    title: 'Llegó la hora de las propuestas',
-    format: 'Video Reel (Expectativa)',
+    title: 'Septiembre: El Gestor y sus Propuestas',
+    format: 'Video Reel (Expectativa / Autoridad)',
     pillar: 'Yasser 2: El Gestor',
-    productionStyle: 'Edición cinematográfica de alto impacto • Subtítulos estilo Hormozi • B-roll de proyectos y música épica',
-    visualScript: 'Yasser en locación icónica mirando a cámara con determinación y energía. Anuncia que a partir de mañana primero de septiembre, se acabaron los diagnósticos: se presentará CÓMO se resolverán los problemas con expedientes, financiamiento y sustento técnico.',
-    hook: 'Ya escuchamos, ya caminamos cada calle. Ahora llegó la hora de decirte con papeles en mano CÓMO lo vamos a solucionar.',
-    messageOrCopy: 'Yasser anunciando enérgicamente que a partir de mañana, detallará CÓMO van a solucionar los problemas de La Brea, con expedientes y sustento. Cierra la Fase 1 y abre con fuerza la Fase 2.',
-    contentCopy: `Llegó la hora de las propuestas: se acabaron las promesas al aire 🚀🇵🇪
+    productionStyle: 'Edición de ritmo alto, música en crescendo, gráficos 3D y presentación de la Fase 2',
+    visualScript: 'Yasser en locación icónica mirando a cámara con firmeza: "Agosto demostró que estamos preparados. Mañana iniciamos septiembre con el desglose técnico y presupuestal de cada propuesta".',
+    hook: 'Se acabó el tiempo de las dudas. A partir de mañana te mostraremos el CÓMO, el CUÁNDO y el CON QUÉ de nuestro Plan 2027–2030.',
+    messageOrCopy: 'Video de apertura que sella el posicionamiento del candidato técnico y da inicio formal a la Fase 2: "El Gestor y sus Propuestas".',
+    contentCopy: `Septiembre: El Gestor y sus Propuestas al descubierto 🚀📊🏛️
 
-Durante estos 15 días de agosto recorrimos La Brea, escuchamos a cada vecino y confirmamos lo que ya sabíamos: nuestro distrito no aguanta más improvisaciones.
+En agosto destruimos la improvisación y dejamos en claro que La Brea necesita capacidad y experiencia comprobada.
 
-A partir de mañana, 1 de septiembre, iniciamos la etapa más importante de esta campaña:
-👉 Te explicaremos CÓMO solucionaremos el problema del agua.
-👉 CÓMO modernizaremos la atención de salud.
-👉 CÓMO generaremos empleo para las mujeres y pescadores con la Casa del Pescador.
+A partir de mañana, 1 de septiembre, arranca la etapa más contundente de nuestra campaña:
+📌 Propuestas técnicas con números, códigos de proyecto y plazos claros.
+📌 Solución definitiva al agua, saneamiento y salud.
+📌 Reactivación de la pesca y el turismo para generar empleo real.
 
-Con expedientes técnicos, con sustento financiero y con la experiencia de saber gestionar.
+El cambio no se improvisa: se planifica y se ejecuta con rigor.
 
-¡Acompáñanos en este camino hacia el cambio real de La Brea–Negritos!
+¡Acompáñanos este mes a construir el futuro de La Brea–Negritos!
 
-#LlegóLaHoraDeLasPropuestas #SeptiembreDeSoluciones #YasserArámbulo #SiempreConLaGente #AlianzaParaElProgreso`,
-    question: '¿Estás listo para conocer las propuestas técnicas que transformarán Negritos?',
-    callToAction: 'Comparte este video y prepárate para el inicio de nuestra serie técnica desde mañana.',
-    interactiveDetails: 'Notificar por canal de difusión de WhatsApp a simpatizantes sobre el cronograma de videos de septiembre.',
-    tags: ['Llegó La Hora', 'Septiembre', 'Propuestas', 'Expectativa', 'Yasser 2'],
+#SeptiembreDePropuestas #ElGestorEnAccion #YasserAlcalde #Plan2030 #SiempreConLaGente #APP`,
+    question: '¿Estás listo para conocer los proyectos técnicos que transformarán Negritos?',
+    callToAction: 'Comparte este video y prepárate para el inicio de nuestra serie técnica.',
+    interactiveDetails: 'ManyChat: enviar recordatorio por WhatsApp con el cronograma de propuestas de septiembre.',
+    tags: ['Lanzamiento', 'Septiembre', 'Fase 2', 'Propuestas', 'Yasser 2'],
     platforms: ['TikTok', 'Instagram Reels', 'Facebook Reels']
   },
 
